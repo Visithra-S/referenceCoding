@@ -42,9 +42,9 @@ public class User {
 		this.emailId = emailId;
 	}
 
-	/*
-	 * @Override public String toString() { return "\n User [UserName=" + UserName +
-	 * ", pwd=" + pwd + ", emailId=" + emailId + "]"; }
-	 */
+	
+	  @Override public String toString() { return "\n User [UserName=" + UserName +
+	 ", pwd=" + pwd + ", emailId=" + emailId + "]"; }
+	 
 
 }

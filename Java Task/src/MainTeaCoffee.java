@@ -9,10 +9,11 @@ public class MainTeaCoffee {
 
 	public static void main(String[] args) {
 
+		System.out.println("TeaPrice: " + TeaPrice);
+		System.out.println("CoffeePrice: " + CoffeePrice);
+
 		while(true) {
 			Scanner sc = new Scanner(System.in);
-			System.out.println("TeaPrice: " + TeaPrice);
-			System.out.println("CoffeePrice: " + CoffeePrice);
 			System.out.println("Enter 1 to get Tea and 2 to get coffee: ");
 			tea = sc.nextInt();
 			/*if(tea==1){	
